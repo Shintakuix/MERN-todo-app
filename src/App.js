@@ -23,11 +23,15 @@ function App() {
           width="30"
           height="30"
           alt="CodingTheSmartWay"
-        />
-        MERN-Stack Todo App
+          className="d-inline-block align-top"
+          />               
         </Navbar.Brand>
-
-        <Nav className="mr-auto">
+        
+        <Navbar.Brand href="/">
+          MERN-Stack Todo App
+        </Navbar.Brand>
+     
+        <Nav className="mr-auto">          
           <Nav.Link href="/">Todos</Nav.Link>
           <Nav.Link href="/create">Create Todos</Nav.Link>
         </Nav>
